@@ -1,7 +1,7 @@
 # near.farm
 
 Database Design:
-
+```
 farms
   id
   name
@@ -69,3 +69,4 @@ farmsToContact
   contact
   views
   updatedDate
+```
