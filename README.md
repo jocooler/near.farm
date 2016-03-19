@@ -69,4 +69,14 @@ farmsToContact
   contact
   views
   updatedDate
+farmsToReviews
+  shopperId
+  farmId
+  productId1
+  productId2
+  productId3
+  productId4
+  productId5
+  rating
+  content
 ```
