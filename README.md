@@ -10,21 +10,19 @@ farms
   city
   state
   zip
-  latitude
-  longitude
+  location (point, requires MySQL 5.6)
   phone
+  email
   profile
   header
   thumbnail
   theme
-  views
 products
   id
   name
   thumbnail
   image
   description
-  views
 shoppers
   id
   name
@@ -37,8 +35,7 @@ shoppers
   password
 shoppersToLocations
   shopperId
-  latitude
-  longitude
+  location
   date
 shoppersToProducts
   shopperId
@@ -57,17 +54,14 @@ farmsToProducts
 farmsToAbout
   farmId
   about
-  views
   updatedDate
 farmsToHome
   farmId
   home
-  views
   updatedDate
 farmsToContact
   farmId
   contact
-  views
   updatedDate
 farmsToReviews
   shopperId
@@ -79,4 +73,12 @@ farmsToReviews
   productId5
   rating
   content
+viewsToLocations
+  viewId
+  shopperId
+  farmId
+  productId
+  page
+  location
+
 ```
