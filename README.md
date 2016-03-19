@@ -1,1 +1,71 @@
 # near.farm
+
+Database Design:
+
+farms
+  id
+  name
+  address1
+  address2
+  city
+  state
+  zip
+  latitude
+  longitude
+  phone
+  profile
+  header
+  thumbnail
+  theme
+  views
+products
+  id
+  name
+  thumbnail
+  image
+  description
+  views
+shoppers
+  id
+  name
+  address1
+  address2
+  city
+  state
+  zip
+  username
+  password
+shoppersToLocations
+  shopperId
+  latitude
+  longitude
+  date
+shoppersToProducts
+  shopperId
+  productId
+  date
+shoppersToFarms
+  shopperId
+  farmId
+  date
+farmsToProducts
+  farmId
+  productId
+  description
+  price
+  unit
+farmsToAbout
+  farmId
+  about
+  views
+  updatedDate
+farmsToHome
+  farmId
+  home
+  views
+  updatedDate
+farmsToContact
+  farmId
+  contact
+  views
+  updatedDate
