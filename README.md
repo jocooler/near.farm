@@ -80,5 +80,12 @@ viewsToLocations
   productId
   page
   location
+markets
+  marketId
+  location
+  hours
+farmsToMarkets
+  marketId
+  farmId
 
 ```
